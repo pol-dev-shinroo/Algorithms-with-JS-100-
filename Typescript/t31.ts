@@ -1,0 +1,5 @@
+// O(n) for arr[i]              => O(1)
+// O(n) for arr.push(5)         => O(1)
+// O(n) for arr.slice()         => O(n)
+// O(n) for arr.pop()           => O(1)
+// O(n) for arr.includes(5)     => O(n)
