@@ -6,3 +6,5 @@ var d = {
     eyesight: 1,
 };
 console.log(d["weight"]);
+
+// no error shown, logs out 84
