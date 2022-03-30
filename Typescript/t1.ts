@@ -15,7 +15,7 @@
 
 const t1 = () => {
     var result: number[] = [];
-    var nums = [100, 200, 300, 400, 500];
+    var nums: number[] = [100, 200, 300, 400, 500];
     result = nums.slice(0, 3);
     return result;
 };
