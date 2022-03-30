@@ -8,3 +8,13 @@ function reverseTring(string: string) {
 }
 
 console.log(reverseTring("hello"));
+
+function secondMethod(string: string) {
+    var newString: string = "";
+    for (var i = string.length - 1; i >= 0; i--) {
+        newString += string[i]; // or newString = newString + str[i];
+    }
+    return newString;
+}
+
+console.log(secondMethod("hello"));
