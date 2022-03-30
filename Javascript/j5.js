@@ -1,11 +1,9 @@
-console.log(Boolean(NaN)); //false
-console.log(Boolean(1)); // true
-console.log(Boolean("")); // false
-console.log(Boolean(0)); // false
-console.log(Boolean(undefined)); // false
+var a = 10;
+var b = 2;
 
-console.log(typeof NaN); //number
-console.log(typeof 1); //number
-console.log(typeof ""); //string
-console.log(typeof 0); // number
-console.log(typeof undefined); // undefined
+for (var i = 1; i < 5; i += 2) {
+    a += i;
+}
+
+console.log(a + b);
+// 16
