@@ -1,4 +1,4 @@
-const students = [
+const students: string[] = [
     "강은지",
     "김유정",
     "박현서",

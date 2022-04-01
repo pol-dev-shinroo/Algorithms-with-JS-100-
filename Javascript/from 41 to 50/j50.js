@@ -13,7 +13,7 @@ function bubble(arr) {
     return result;
 }
 
-const items = "1 2 3 4 5".split(" ").map((n) => {
+const items = "5 4 3 2 1".split(" ").map((n) => {
     return parseInt(n, 10);
 });
 
